@@ -1,0 +1,48 @@
+body{
+    background-color: grey;
+    padding: 2%;
+}
+
+#wrapper {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2%;
+    padding: 2%;
+}
+
+input {
+    padding: 5px;
+    width: 40%;
+}
+
+button {
+    padding: 5px 20px;
+}
+
+#clear-btn {
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+#check-btn {
+    background-color: green;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+li{
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+    color: white;
+    background-color: black;
+}
